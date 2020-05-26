@@ -1,6 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,800i,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik:200,300,400,500,600,700,800,800i,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700,800,800i,900&display=swap");
+
+/* Preloader Css */
+.preloader {
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99999;
+  background-image: url('../images/preloader.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 /*=============================================================
 0.1-Heading
 ===============================================================*/
@@ -342,6 +357,9 @@ body {
 /*=============================================================
 7-Testimonials
 ===============================================================*/
+.testimonials{
+  overflow:hidden;
+}
 .testimonials-box {
   border: 2px solid #d7f9e6;
   padding: 1.75rem 2.688rem 1.875rem 2.5rem;
@@ -595,5 +613,17 @@ footer .footer-widget .content ul li .footer-social-icon a {
       0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1),
       0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 30px rgba(255, 255, 255, 0);
+  }
+}
+
+
+@-webkit-keyframes spinner {
+  0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
   }
 }
