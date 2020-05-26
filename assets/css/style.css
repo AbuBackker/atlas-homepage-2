@@ -11,7 +11,7 @@
   right: 0;
   top: 0;
   z-index: 99999;
-  background-image: url('../images/preloader.svg');
+  background-image: url("../images/preloader.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -357,8 +357,8 @@ body {
 /*=============================================================
 7-Testimonials
 ===============================================================*/
-.testimonials{
-  overflow:hidden;
+.testimonials {
+  overflow: hidden;
 }
 .testimonials-box {
   border: 2px solid #d7f9e6;
@@ -599,6 +599,55 @@ footer .footer-widget .content ul li .footer-social-icon a {
   margin-bottom: 0px;
   display: contents;
 }
+/*=============================================================
+2.1-Posts (Left Side)
+===============================================================*/
+.posts-item {
+  margin-bottom: 60px;
+}
+.posts-item .mr-50 {
+  margin-right: 50px;
+}
+.posts-item .d-flex i {
+  color: #1fe075;
+  margin-right: 8px;
+}
+.posts-item .posts-title {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #223a66;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 42px;
+  margin-bottom: 39px;
+}
+.posts-item .posts-author,
+span,
+.posts-date,
+.posts-comments,
+.posts-content {
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.4;
+}
+.posts-item .posts-content {
+  font-size: 16px !important;
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+.posts-item .posts-author,
+.posts-date,
+.posts-comments,
+.posts-content {
+  color: #69798d;
+}
+.posts-item .posts-author span {
+  color: #1fe075;
+}
+.posts-item:hover .theme-btn-primary-1 {
+  background-color: #1fe075;
+  color: #fff;
+}
 
 /* Animations */
 @-webkit-keyframes ripple-white {
@@ -616,14 +665,13 @@ footer .footer-widget .content ul li .footer-social-icon a {
   }
 }
 
-
 @-webkit-keyframes spinner {
   0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
