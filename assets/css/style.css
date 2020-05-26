@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,800i,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik:200,300,400,500,600,700,800,800i,900&display=swap");
-
-@media (max-width: 991px) {
-  html {
-    font-size: 80%;
-  }
-}
+@import url("https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700,800,800i,900&display=swap");
 /*=============================================================
 0.1-Heading
 ===============================================================*/
@@ -16,6 +11,12 @@ body {
 .py-130 {
   padding-top: 8.125rem;
   padding-bottom: 8.125rem;
+}
+.bg-color {
+  background-color: #f9f9ff;
+}
+.site-bg-dark {
+  background-color: #0d1549;
 }
 .section-heading .heading-subtitle {
   font-size: 1.25rem;
@@ -29,7 +30,7 @@ body {
   font-size: 3.125rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #34383f;
+  color: #223a66;
   line-height: 1.3;
   margin-top: 0.75rem;
   margin-bottom: 2.8125rem;
@@ -82,7 +83,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 55px;
+  margin-top: 57px;
 }
 .theme-btn-primary-4 {
   border: 1px;
@@ -100,11 +101,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-.theme-btn-primary-circle {
+.theme-btn-social-icon {
   border: 1px;
   border-radius: 50%;
-  width: 46px !important;
-  height: 46px;
+  width: 45px !important;
+  height: 45px;
   font-size: 15px;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
@@ -127,7 +128,7 @@ body {
 }
 .navbar-primary .text-block span {
   font-size: 2.5rem;
-  font-family: "Rubik", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 600 !important;
 }
 .navbar-primary .text-block .frist {
@@ -190,14 +191,14 @@ body {
 3-About US
 ===============================================================*/
 .ml-m31 {
-  margin-left: -31px;
+  margin-left: -1.937rem;
 }
 .about-us-above {
   z-index: 1;
 }
 .about-us-border {
-  border: 2px solid #1fe075;
-  padding: 48px 20px 38px 35px;
+  border: 0.125rem solid #1fe075;
+  padding: 3rem 1.25rem 2.375rem 2.188rem;
   border-left: 0px none transparent;
 }
 .about-us-border .content-1,
@@ -209,15 +210,15 @@ body {
   text-align: left;
 }
 .about-us-border .content-2 {
-  margin-top: 16px;
-  margin-bottom: 9px;
+  margin-top: 1rem;
+  margin-bottom: 0.563rem;
 }
 .about-us-border .counter {
   font-size: 3.75rem;
   font-family: "Poppins", sans-serif;
   color: #1fe075;
   font-weight: 600;
-  margin-bottom: 31px;
+  margin-bottom: 1.938rem;
 }
 .about-us-border .title {
   font-size: 1.125rem;
@@ -227,9 +228,6 @@ body {
 /*=============================================================
 4-Services
 ===============================================================*/
-.bg-color {
-  background-color: #f9f9ff;
-}
 .section-heading .services {
   margin-bottom: 1.625rem;
 }
@@ -324,24 +322,21 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 .video-preview-1 {
   background-image: url(./../images/videos/1.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 570px;
-  width: 1099px;
+  background-position: center center;
+  height: 37.563rem;
+  width: 100%;
 }
 .video-style-one .play-btn {
   font-size: 1rem;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   background-color: #1fe075;
   font-family: "Rubik", sans-serif;
@@ -357,26 +352,23 @@ body {
 /*=============================================================
 7-Testimonials
 ===============================================================*/
-mt-30 {
-  margin-top: 30px;
-}
 .testimonials-box {
   border: 2px solid #d7f9e6;
-  padding: 28px 43px 30px 40px;
+  padding: 1.75rem 2.688rem 1.875rem 2.5rem;
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
 }
 .testimonials-box::after {
   content: "";
   position: absolute;
   border: 2px solid #d7f9e6;
-  width: 25px;
-  height: 25px;
+  width: 2.813rem;
+  height: 2.813rem;
   top: 100%;
   left: 50%;
-  margin-left: -12px;
+  margin-left: -1.375rem;
   transform: rotate(45deg);
-  margin-top: -12px;
+  margin-top: -1.312rem;
   background: #fff;
   border-top: 0px;
   border-left: 0px;
@@ -393,24 +385,29 @@ mt-30 {
   font-family: "Poppins", sans-serif;
   color: #223a66;
   font-weight: 600;
-  margin-top: 20px;
-  margin-bottom: 11px;
+  margin-top: 1.25rem;
+  margin-bottom: 0.688rem;
 }
 .testimonials-box .testimonials-market {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   color: #69798d;
-  margin-bottom: 35px;
+  margin-bottom: 2.188rem;
+}
+.testimonials-section img {
+  margin-top: 0.125rem;
 }
 /*=============================================================
 8-Blog
 ===============================================================*/
 .blog-item {
   border: 2px solid #ffdfdf;
-  padding: 30px 43px 38px 28px;
+  padding: 1.5rem 2.813rem 2rem 1.75rem;
+  border-top-color: transparent;
 }
 .blog-image {
   width: 100%;
+  height: 15.625rem;
 }
 .blog-item .blog-author {
   font-size: 0.875rem;
@@ -422,14 +419,14 @@ mt-30 {
   font-family: "Poppins", sans-serif;
   color: #1fe075;
   font-weight: 600;
-  margin-top: 20px;
-  margin-bottom: 25px;
+  margin-top: 0.875rem;
+  margin-bottom: 0.938rem;
 }
 .blog-item .blog-content {
   font-size: 1rem;
   font-family: "Rubik", sans-serif;
   color: #69798d;
-  margin-bottom: 31px;
+  margin-bottom: 1.25rem;
 }
 .blog-item .blog-link {
   font-size: 0.9375rem;
@@ -437,19 +434,26 @@ mt-30 {
   font-weight: 600;
   color: #1fe075;
 }
+.blog-section .col-lg-6 .col-lg-8 {
+  margin-left: -1.312rem;
+}
+.blog-short-data {
+  margin-top: -0.25rem;
+}
 .blog-short-data .blog-heading {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   color: #223a66;
   font-weight: 600;
-  line-height: 1.3;
+  line-height: 1.6;
 }
 .blog-short-data .blog-heading-content {
   font-size: 1rem;
   font-family: "Rubik", sans-serif;
   color: #69798d;
-  margin-top: 17px;
-  margin-bottom: 16px;
+  margin-top: 0.813rem;
+  margin-bottom: 0.563rem;
+  line-height: 1.6;
 }
 .blog-short-data .blog-post-date {
   font-size: 0.875rem;
@@ -458,7 +462,7 @@ mt-30 {
   font-style: italic;
 }
 .mb-30 {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 .blog .text-center {
   display: flex;
@@ -469,8 +473,8 @@ mt-30 {
 9-Newsletter
 ===============================================================*/
 .py-130-80 {
-  padding-top: 130px;
-  padding-bottom: 80px;
+  padding-top: 8.125rem;
+  padding-bottom: 5rem;
 }
 .newsletter-item {
   display: flex;
@@ -478,7 +482,7 @@ mt-30 {
 }
 .text-block span {
   font-size: 2.5rem;
-  font-family: "Rubik", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 600 !important;
   text-align: center;
 }
@@ -514,20 +518,17 @@ mt-30 {
 /*=============================================================
 10-Footer
 ===============================================================*/
-.site-bg-dark {
-  background-color: #0d1549;
-}
 footer {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 80px 0px;
+  padding: 5rem 0px;
 }
 footer .footer-widget .heading {
   font-family: "Poppins", sans-serif;
   color: #f1f1f1;
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 40px;
+  margin-bottom: 1.375rem;
 }
 footer .footer-widget .content ul {
   list-style: none;
@@ -537,14 +538,14 @@ footer .footer-widget .content ul li {
   display: flex;
   align-items: center;
 }
-footer .footer-widget .content ul li .ml-7 {
-  margin-left: 5px;
-}
-footer .footer-widget .content ul li .ml-7 i {
+.footer-title-hover:hover .footer-title {
   color: #1fe075;
+  margin-left: 7px;
+  text-decoration: none;
 }
-footer .footer-widget .content ul li .ml-7 a {
+.footer-title-hover:hover .fas {
   color: #1fe075;
+  margin-left: 0.438rem;
 }
 footer .footer-widget .content ul li a {
   font-family: "Rubik", sans-serif;
@@ -554,25 +555,28 @@ footer .footer-widget .content ul li a {
   font-weight: 400;
   line-height: 36px;
   position: relative;
-  margin-left: 5px;
+  margin-left: 0.313rem;
 }
 footer .footer-widget .content ul li i {
   color: #fff;
 }
-footer .footer-widget .content ul li .footer-btn i {
+footer .footer-widget .content ul li .footer-social-icon i {
   color: #1fe075;
   text-align: center;
 }
-footer .footer-widget .content ul li .footer-btn a {
-  margin-right: 20px;
+footer .footer-widget .content ul li .footer-social-icon a {
+  margin-right: 0.938rem;
 }
-.footer-hover:hover .theme-btn-primary-circle {
+.footer-hover:hover .theme-btn-social-icon {
   background-color: #1fe075;
   text-decoration: none;
 }
-.footer-hover:hover .theme-btn-primary-circle .fab {
+.footer-hover:hover .theme-btn-social-icon .fab {
   color: #fff;
 }
+/*=============================================================
+11-Copyright
+===============================================================*/
 .copyright-block {
   min-height: 50px;
   line-height: 50px;
@@ -583,5 +587,7 @@ footer .footer-widget .content ul li .footer-btn a {
   color: #ffffff;
   font-size: 1rem;
   font-weight: 400;
+  line-height: 1.7;
   margin-bottom: 0px;
+  display: contents;
 }

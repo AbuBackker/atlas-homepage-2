@@ -1,6 +1,80 @@
+@media (max-width: 991px) {
+  html {
+    font-size: 80%;
+  }
+}
+/*=============================================================
+3-About Us
+===============================================================*/
+
+/* Heading Start */
+
+@media (min-width: 1200px) {
+  .about-us-section .col-lg-8 {
+    flex: 1 0 66.666667%;
+    max-width: 74.666667%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-us-section .col-lg-8 {
+    flex: 1 0 66.666667%;
+    max-width: 77.666667%;
+  }
+}
+
+/* Image Start */
+@media (max-width: 488px) {
+  .about-us-section img {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .about-us-section .about-us-above {
+    margin-top: -6px;
+  }
+}
+
+/* Image & Border Start */
+
+@media (max-width: 991px) {
+  .about-us-section img,
+  .ml-m31 {
+    margin: auto;
+    display: flex;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-us-section .about-us-border {
+    padding: 3rem 0.5rem 2.375rem 1rem;
+  }
+  .about-us-section .ml-m31 {
+    margin-left: 2.813rem;
+  }
+  .about-us-section .about-us-above {
+    margin-left: -3.375rem;
+    margin-top: -0.313rem;
+  }
+}
+
+/* Border Start */
+
+@media (max-width: 991px) {
+  .about-us-section .about-us-border {
+    border: 2px solid #1fe075;
+    padding: 3rem 2.5rem 2.375rem 2.188rem;
+  }
+}
+@media (max-width: 767px) {
+  .about-us-section .about-us-border .row .col-lg-4 {
+    text-align: center;
+  }
+}
 /*=============================================================
 4-Services
 ===============================================================*/
+
+/* Heading Start */
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .services-section .col-lg-7 {
     flex: 1 0 58.333333%;
@@ -13,6 +87,9 @@
     max-width: 100%;
   }
 }
+
+/* Services Start */
+
 @media (min-width: 768px) and (max-width: 991px) {
   .services-section .services-item .mb-62 {
     margin-bottom: 1.875rem;
@@ -29,6 +106,171 @@
 @media (max-width: 470px) {
   .services-section .services-item {
     padding: 0 5.25rem;
-    text-align: center !important;
+  }
+}
+@media (max-width: 359px) {
+  .services-section .services-item {
+    padding: 0 1.25rem;
+  }
+  .services-section .services-item img {
+    width: 70%;
+  }
+}
+@media (max-width: 250px) {
+  .services-section .services-item img {
+    width: 90%;
+  }
+}
+/*=============================================================
+6-Videos
+===============================================================*/
+@media (max-width: 767px) {
+  .video-preview-1 {
+    height: 23.125rem;
+  }
+}
+/*=============================================================
+7-Testimonials
+===============================================================*/
+@media (max-width: 991px) {
+  .testimonials-section .col-md-12 {
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .testimonials-section .container {
+    max-width: 680px;
+  }
+}
+@media (min-width: 451px) and (max-width: 575px) {
+  .testimonials-section .container {
+    width: 95%;
+  }
+}
+@media (min-width: 401px) and (max-width: 575px) {
+  .testimonials-section .testimonials-box {
+    padding: 1.25rem 1.875rem 1.25rem 1.75rem;
+  }
+}
+@media (max-width: 400px) {
+  .testimonials-section .testimonials-box {
+    padding: 1.25rem;
+  }
+}
+/*=============================================================
+8-Blog
+===============================================================*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .blog-section .blog-item {
+    padding-right: 2.375rem;
+  }
+  .blog-section .blog-short-data .blog-heading {
+    line-height: 1.3;
+  }
+  .blog-section .blog-short-data .blog-heading-content {
+    line-height: 1.3;
+  }
+  .blog-section .col-lg-6 .col-lg-8 {
+    margin-left: 0;
+  }
+}
+@media (max-width: 991px) {
+  .blog-section .blog-item {
+    padding-right: 5.375rem;
+  }
+  .blog-section .mb-35 {
+    margin-bottom: 2.188rem;
+  }
+  .blog-section .col-md-9 {
+    padding: 0.625rem 1rem;
+  }
+}
+@media (min-width: 545px) and (max-width: 575px) {
+  .blog-section .col-lg-6 .col-lg-8 {
+    margin-left: -2rem;
+  }
+}
+@media (min-width: 500px) and (max-width: 544px) {
+  .blog-section .col-lg-6 .col-lg-8 {
+    margin-left: -1rem;
+  }
+}
+@media (min-width: 460px) and (max-width: 499px) {
+  .blog-section .col-lg-6 .col-lg-8 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 430px) and (max-width: 459px) {
+  .blog-section .blog-img {
+    width: auto;
+    height: 7.188rem;
+  }
+  .blog-section .col-md-9 {
+    padding: 0;
+  }
+  .blog-section .blog-short-data .blog-heading,
+  .blog-heading-content {
+    line-height: normal;
+  }
+  .blog-section .col-lg-6 .col-lg-8 {
+    margin-left: 0rem;
+  }
+}
+@media (max-width: 429px) {
+  .blog-section .blog-image {
+    height: 10rem;
+  }
+  .blog-section .col-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .blog-section .col-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .blog-section .blog-short-data {
+    margin-left: 18px;
+    margin-bottom: 10px;
+  }
+  .blog-section .mb-30 {
+    margin-bottom: 0;
+  }
+}
+/*=============================================================
+9-Newsletter
+===============================================================*/
+@media (max-width: 991px) {
+  .newsletter-section .newsletter-item {
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .newsletter-section .form-block .theme-btn-primary-4 {
+    right: 0px;
+    bottom: -85px;
+  }
+  .newsletter-section .theme-btn-primary-4 {
+    width: 100%;
+  }
+  .py-130-80 {
+    padding-bottom: 8.125rem;
+  }
+}
+/*=============================================================
+10-Footer
+===============================================================*/
+@media (min-width: 992px) and (max-width: 1029px) {
+  .footer-section .container {
+    max-width: 55.313rem;
+  }
+}
+@media (max-width: 992px) {
+  .footer-section .col-12 {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 258px) {
+  .footer-section .d-flex {
+    display: grid !important;
   }
 }
