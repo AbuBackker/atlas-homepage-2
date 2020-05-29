@@ -274,3 +274,89 @@
     display: grid !important;
   }
 }
+/*=============================================================
+1-Blog List
+===============================================================*/
+
+/* Left Side Start */
+@media (max-width: 991px) {
+  .posts-item .d-flex i {
+    margin-top: 4px;
+  }
+}
+@media (max-width: 767px) {
+  .btn-page-link {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 429px) {
+  .posts-section .mr-30 {
+    margin-right: 15px;
+  }
+}
+
+/* Left Side End */
+
+/* Right Side Start */
+
+@media (max-width: 991px) {
+  .posts-card .green-box {
+    margin-top: -14px;
+  }
+}
+
+/* Recent Post Item Start */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .recent-posts-section .recent-posts-item {
+    margin-left: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .recent-posts-section .col-lg-9 {
+    padding-left: 45px;
+  }
+}
+@media (min-width: 349px) and (max-width: 399px) {
+  .recent-posts-section .col-lg-9 {
+    padding-left: 15px;
+  }
+}
+@media (min-width: 320px) and (max-width: 348px) {
+  .recent-posts-section .col-lg-9 {
+    padding-left: 22px;
+  }
+}
+@media (min-width: 275px) and (max-width: 319px) {
+  .recent-posts-section .col-lg-9 {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 274px) {
+  .recent-posts-section .col-lg-9 {
+    padding-left: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .recent-posts-item i {
+    margin-top: 4px;
+    margin-right: 5px;
+  }
+}
+
+/* Archive Start */
+
+@media (max-width: 991px) {
+  .archive-item i {
+    margin-top: 7px;
+  }
+}
+
+/* Meta Start */
+
+@media (min-width: 576px) (max-width: 991px) {
+  .meta-section .green-box {
+    margin-top: -13px;
+  }
+}
+/*  */

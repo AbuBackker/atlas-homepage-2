@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,800i,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik:200,300,400,500,600,700,800,800i,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700,800,800i,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700,800,800i,900&display=swap");
 
 /* Preloader Css */
 .preloader {
@@ -600,6 +601,82 @@ footer .footer-widget .content ul li .footer-social-icon a {
   display: contents;
 }
 /*=============================================================
+0.1-Heading
+===============================================================*/
+body {
+  margin: 0;
+  padding: 0;
+}
+.py-130 {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.section-heading .heading-subtitle {
+  font-size: 1.25rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  color: #1fe075;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.section-heading .heading-title {
+  font-size: 3.125rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #223a66;
+  line-height: 1.3;
+  margin-top: 2.438rem;
+}
+/*=============================================================
+0.2-Buttons
+===============================================================*/
+.theme-btn-blog-1 {
+  border: 1px solid #1fe075;
+  border-radius: 30px;
+  background-color: #fff;
+  width: 200px;
+  height: 60px;
+  font-size: 15px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  color: #69798d;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*=============================================================
+1-Hero Section
+===============================================================*/
+.bg-2 {
+  background-image: url(./../../assets/images/hero/1.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section .title {
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.1;
+}
+.hero-section .short-d {
+  font-size: 1.25rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.6;
+  margin-top: 17px;
+}
+/*=============================================================
 2.1-Posts (Left Side)
 ===============================================================*/
 .posts-item {
@@ -612,14 +689,17 @@ footer .footer-widget .content ul li .footer-social-icon a {
   color: #1fe075;
   margin-right: 8px;
 }
+.posts-item .posts-image {
+  width: 100%;
+}
 .posts-item .posts-title {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
   color: #223a66;
   font-weight: 600;
   line-height: 1.3;
-  margin-top: 42px;
-  margin-bottom: 39px;
+  margin-top: 33px;
+  margin-bottom: 27px;
 }
 .posts-item .posts-author,
 span,
@@ -632,8 +712,9 @@ span,
 }
 .posts-item .posts-content {
   font-size: 16px !important;
-  margin-top: 42px;
-  margin-bottom: 42px;
+  margin-top: 14px;
+  margin-bottom: 33px;
+  line-height: 1.75;
 }
 .posts-item .posts-author,
 .posts-date,
@@ -644,12 +725,229 @@ span,
 .posts-item .posts-author span {
   color: #1fe075;
 }
-.posts-item:hover .theme-btn-primary-1 {
+.posts-item:hover .theme-btn-blog-1 {
   background-color: #1fe075;
   color: #fff;
+  text-decoration: none;
+}
+.btn-page-link {
+  border: 1px solid #1fe075;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  font-size: 15px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  color: #69798d;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.posts-section .mr-30 {
+  margin-right: 30px;
+}
+.btn-page-link:hover {
+  background-color: #1fe075;
+  color: #fff;
+  text-decoration: none;
+}
+/*=============================================================
+2.2-Posts (Right Side)
+===============================================================*/
+
+/* Search Item Start */
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+.posts-card .first-line {
+  margin-top: 9px;
+}
+.posts-card {
+  padding: 34px 30px 23px 30px;
+  box-shadow: 0px 3px 7px 0px rgba(31.224, 117, 0.1);
+}
+.posts-card .card-title {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #223a66;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.posts-card .frist-line {
+  margin-top: 9px;
+}
+.posts-card .green-box {
+  background-color: #1fe075;
+  width: 35px;
+  height: 3px;
+  margin-top: -17px;
+}
+.search-section .search-hr {
+  margin-top: -8px;
+}
+.search-section ul {
+  padding: 0;
+}
+.search-section ul li {
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  margin-top: 24px;
+}
+.search-section ul li a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #69798d;
+}
+.search-section ul li i {
+  font-size: 16px;
+  color: #1fe075;
+}
+.search-section ul li i {
+  float: right;
 }
 
-/* Animations */
+/* Search Item End */
+
+/* Recent Posts Item Start */
+
+.recent-posts-section {
+  padding-bottom: 31px;
+}
+.recent-posts-section .recent-posts-hr {
+  margin-top: 21px;
+  margin-bottom: 29px;
+}
+.recent-posts-item .recent-posts-title {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #223a66;
+  font-weight: 600;
+  text-align: left;
+}
+.recent-posts-section .col-lg-9 {
+  padding: 0;
+  padding-left: 11px;
+}
+.recent-posts-item i {
+  margin-right: 4px;
+  margin-top: 1px;
+  color: #1fe075;
+}
+.recent-posts-item .recent-posts-date {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #69798d;
+  text-align: left;
+}
+.recent-posts-section .green-box {
+  margin-bottom: 30px;
+}
+
+/* Recent Posts Item End */
+
+/* Blog Catagories Item Start */
+
+.blog-catagories-card {
+  padding-bottom: 5px;
+}
+.blog-catagories-item ul {
+  padding: 0;
+}
+.blog-catagories-card .green-box {
+  margin-bottom: 25px;
+}
+.blog-catagories-item ul li {
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 11px;
+}
+.blog-catagories-item ul li a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #69798d;
+}
+/* .blog-catagories-item ul li span {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #69798d;
+} */
+.blog-catagories-item ul li a:hover {
+  color: #1fe075;
+  text-decoration: none;
+}
+/* .blog-catagories-item ul li span:hover {
+  color: #1fe075;
+} */
+.blog-catagories-item ul li span {
+  float: right;
+}
+
+/* Blog Catagories Item End */
+
+/* Archive Posts Item Start */
+
+.archive-section {
+  padding-bottom: 18px;
+}
+.archive-section .green-box {
+  margin-bottom: 25px;
+}
+.archive-item i {
+  color: #1fe075;
+  margin-top: 3px;
+  margin-right: 8px;
+}
+.archive-item .archive-title {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #69798d;
+  margin-bottom: 14px;
+}
+
+/* Archive Posts Item End */
+
+/* Gallery Item Start */
+
+.sidebar .green-box {
+  margin-bottom: 25px;
+}
+.sidebar .gallery-widget {
+  margin-bottom: 10px;
+}
+.sidebar .gallery-widget img {
+  width: 100%;
+}
+.sidebar .gallery-widget .gallery-image {
+  margin-bottom: 20px;
+}
+
+/* Gallery Item End */
+
+/* Meta Item Start */
+
+.meta-section {
+  padding-bottom: 18px;
+}
+.meta-section .green-box {
+  margin-bottom: 25px;
+}
+.meta-widgets .meta-title {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #69798d;
+  margin-bottom: 14px;
+}
+
+/* Meta Item End */
+
+/*=============================================================
+Animation
+===============================================================*/
 @-webkit-keyframes ripple-white {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
